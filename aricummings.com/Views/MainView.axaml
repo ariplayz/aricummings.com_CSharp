@@ -38,8 +38,18 @@
             <Button Content="Skills" DockPanel.Dock="Right" HorizontalAlignment="Stretch" Margin="0 0 0 0"/>
             <Button Content="About" DockPanel.Dock="Right" HorizontalAlignment="Right" Margin="0 0 0 0"/>
         </DockPanel>
-            
             <Rectangle Height="1" Fill="#FFCCCC" HorizontalAlignment="Stretch"/>
+            
+            <StackPanel Orientation="Horizontal">
+                <StackPanel Orientation="Vertical">
+                    <TextBlock>Hello, I'm Ari Cummings, a student at</TextBlock>
+                    <TextBlock>The Delphian School</TextBlock>
+                    
+                    <TextBlock Foreground="{DynamicResource HeaderTextBrush}" FontSize="65">Open Source</TextBlock>
+                    <TextBlock FontSize="65">Developer</TextBlock>
+                </StackPanel>
+                <Image Source="../Assets/hero-coding.jpg" Height=""></Image>
+            </StackPanel>
             
         </StackPanel>
     </ScrollViewer>
