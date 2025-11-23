@@ -25,6 +25,7 @@
                  
                  <SolidColorBrush x:Key="PrimaryHoverBackground">#041132</SolidColorBrush>
                  <SolidColorBrush x:Key="PrimaryHoverForeground">White</SolidColorBrush>
+                 <SolidColorBrush x:Key="SecondaryForeground">#6ea3b8</SolidColorBrush>
                  
                  
                  <FontFamily x:Key="AkkoPro">/Assets/Fonts/Akko-Pro-Regular.ttf#Akko Pro</FontFamily>
