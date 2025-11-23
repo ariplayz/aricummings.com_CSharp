@@ -74,11 +74,12 @@ public partial class MainView : UserControl
         GithubLink();
     }
 
+// Renamed from GithubButton2 to avoid confusion or remove if you prefer only one button
     private void GithubButton2(object? sender, RoutedEventArgs e)
     {
         GithubLink();
     }
-    
+
     void GithubLink()
     {
         Process.Start(new ProcessStartInfo
