@@ -69,7 +69,7 @@
                     
                     <Grid>
                         <Border x:Name="ImageCard"
-                                Width="520" Height="420"
+                                Width="570" Height="460"
                                 CornerRadius="16"
                                 ClipToBounds="True"
                                 HorizontalAlignment="Center"
