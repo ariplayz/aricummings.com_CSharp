@@ -152,16 +152,29 @@
                 </Border>
             </StackPanel>
             
-            <StackPanel Background="{DynamicResource PrimaryHoverBackground}">
-                <StackPanel Orientation="Horizontal" Background="Transparent">
-                    <TextBlock Foreground="{DynamicResource PrimaryForeground}">About</TextBlock>
-                    <TextBlock Foreground="{DynamicResource HeaderTextBrush}">Me</TextBlock> 
+            <StackPanel Margin="0 250 0 0" Background="{DynamicResource PrimaryHoverBackground}">
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Orientation="Horizontal" Background="Transparent">
+                    <TextBlock Margin="0 0 10 0" FontSize="35" FontFamily="{DynamicResource AkkoProBold}" Background="Transparent" HorizontalAlignment="Center" Foreground="{DynamicResource PrimaryForeground}">About</TextBlock>
+                    <TextBlock FontSize="35" FontFamily="{DynamicResource AkkoProBold}" Background="Transparent" HorizontalAlignment="Center" Foreground="{DynamicResource HeaderTextBrush}">Me</TextBlock> 
                 </StackPanel>
                 
-                <TextBlock HorizontalAlignment="Center" Foreground="{DynamicResource SecondaryForeground}">A passionate student developer at The Delphian School, dedicated to creating </TextBlock>
-                <TextBlock HorizontalAlignment="Center" Foreground="{DynamicResource SecondaryForeground}">innovative solutions and contributing to the open source community.</TextBlock>
+                <TextBlock Background="Transparent" HorizontalAlignment="Center" Foreground="{DynamicResource SecondaryForeground}">A passionate student developer at The Delphian School, dedicated to creating </TextBlock>
+                <TextBlock Margin="0 0 0 115" Background="Transparent" HorizontalAlignment="Center" Foreground="{DynamicResource SecondaryForeground}">innovative solutions and contributing to the open source community.</TextBlock>
                 
+                <TextBlock Background="Transparent" HorizontalAlignment="Left" Foreground="White">My Journey</TextBlock>
+
+                <StackPanel Orientation="Horizontal" Background="Transparent">
+                                    
+                    <StackPanel></StackPanel>
+                    <TextBlock Background="Transparent" HorizontalAlignment="Left" Foreground="{DynamicResource SecondaryForeground}">As a high school student at The Delphian School, I've discovered my passion for </TextBlock>
+                    <TextBlock Background="Transparent" HorizontalAlignment="Left" Foreground="{DynamicResource SecondaryForeground}">programming and software development. I believe in the power of technology to solve </TextBlock>
+                    <TextBlock Background="Transparent" HorizontalAlignment="Left" Foreground="{DynamicResource SecondaryForeground}">real-world problems and make a positive impact.</TextBlock>
                 
+                    <TextBlock Margin="0 30 0 0" Background="Transparent" HorizontalAlignment="Left" Foreground="{DynamicResource SecondaryForeground}">My focus areas include C# for desktop and backend applications, Swift for iOS </TextBlock>
+                    <TextBlock Background="Transparent" HorizontalAlignment="Left" Foreground="{DynamicResource SecondaryForeground}">development, and modern web technologies like JavaScript, HTML, and CSS. I'm </TextBlock>
+                    <TextBlock Background="Transparent" HorizontalAlignment="Left" Foreground="{DynamicResource SecondaryForeground}">committed to writing clean, efficient code and contributing to open source projects.</TextBlock>
+
+                </StackPanel>
                 
             </StackPanel>
             
