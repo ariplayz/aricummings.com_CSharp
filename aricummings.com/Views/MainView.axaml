@@ -43,20 +43,20 @@
             <Rectangle Height="1" Fill="{DynamicResource SecondaryForeground}" HorizontalAlignment="Stretch"/>
             
             <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch" VerticalAlignment="Top">
-                <DockPanel VerticalAlignment="Top" Margin="100 200 100 200">
+                <DockPanel VerticalAlignment="Top" Margin="100 200 100 00.">
                 <StackPanel Orientation="Vertical" DockPanel.Dock="Left">
                     <TextBlock HorizontalAlignment="Left" FontSize="30" Text="&lt;/&gt;" Margin="0 0 0 40"></TextBlock>
                     <TextBlock HorizontalAlignment="Left" Foreground="{DynamicResource SecondaryForeground}" Margin="0 0 0 32">Hello, I'm Ari Cummings, a student at</TextBlock>
                     <TextBlock HorizontalAlignment="Left" Foreground="{DynamicResource SecondaryForeground}" Margin="0 0 0 32">The Delphian School</TextBlock>
                     
-                    <TextBlock HorizontalAlignment="Left" Foreground="{DynamicResource HeaderTextBrush}" FontSize="65" Classes="bold">Open Source</TextBlock>
-                    <TextBlock HorizontalAlignment="Left" FontSize="65" Margin="0 0 0 32" Classes="bold">Developer</TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Background="{DynamicResource PrimaryBackground}" Foreground="{DynamicResource HeaderTextBrush}" FontSize="65" Classes="bold">Open Source</TextBlock>
+                    <TextBlock HorizontalAlignment="Left" FontSize="65" Background="{DynamicResource PrimaryBackground}" Margin="0 0 0 32" Classes="bold">Developer</TextBlock>
                     
                     <TextBlock Foreground="{DynamicResource SecondaryForeground}">Passionate high school developer specializing in C#, C++, and </TextBlock>
                     <TextBlock Foreground="{DynamicResource SecondaryForeground}">web technologies. Building innovative solutions and </TextBlock>
                     <TextBlock Foreground="{DynamicResource SecondaryForeground}">contributing to open source projects.</TextBlock>
                     
-                    <Button Margin="0 40" Click="GithubButton2" Foreground="White" Background="{DynamicResource HeaderTextBrush}">
+                    <Button Height="70" Width="275" Margin="0 40" Click="GithubButton2" Foreground="White" Background="{DynamicResource HeaderTextBrush}">
                         <StackPanel Margin="10" Orientation="Horizontal" Classes="transparent">
                         <Label Margin="0" HorizontalAlignment="Left" Classes="transparent">View My work</Label>
                         <Viewbox Width="25" Height="25" Stretch="Uniform" HorizontalAlignment="Right" Margin="10 0 0 0">
@@ -128,6 +128,41 @@
                     </Grid>
                     
                 </DockPanel>
+            </StackPanel>
+            
+            <TextBlock Margin="100 40 0 20" Background="{DynamicResource PrimaryHoverBackground}" Foreground="{DynamicResource SecondaryForeground}">Technologies I work with:</TextBlock>
+            <StackPanel Margin="100 0 0 0" Orientation="Horizontal">
+                <Border Padding="10" HorizontalAlignment="Center" Margin="15 0 0 0" Background="#1b2537" CornerRadius="8">
+                    <TextBlock Background="Transparent" Foreground="{DynamicResource SecondaryForeground}">C#</TextBlock>
+                </Border>
+                <Border Padding="10" HorizontalAlignment="Center" Margin="15 0 0 0" Background="#1b2537" CornerRadius="8">
+                    <TextBlock Background="Transparent" Foreground="{DynamicResource SecondaryForeground}">C++</TextBlock>
+                </Border>
+                <Border Padding="10" HorizontalAlignment="Center" Margin="15 0 0 0" Background="#1b2537" CornerRadius="8">
+                    <TextBlock Background="Transparent" Foreground="{DynamicResource SecondaryForeground}">Java</TextBlock>
+                </Border>
+                <Border Padding="10" HorizontalAlignment="Center" Margin="15 0 0 0" Background="#1b2537" CornerRadius="8">
+                    <TextBlock Background="Transparent" Foreground="{DynamicResource SecondaryForeground}">HTML/CSS</TextBlock>
+                </Border>
+                <Border Padding="10" HorizontalAlignment="Center" Margin="15 0 0 0" Background="#1b2537" CornerRadius="8">
+                    <TextBlock Background="Transparent" Foreground="{DynamicResource SecondaryForeground}">Git</TextBlock>
+                </Border>
+                <Border Padding="10" HorizontalAlignment="Center" Margin="15 0 0 0" Background="#1b2537" CornerRadius="8">
+                    <TextBlock Background="Transparent" Foreground="{DynamicResource SecondaryForeground}">Swift</TextBlock>
+                </Border>
+            </StackPanel>
+            
+            <StackPanel Background="{DynamicResource PrimaryHoverBackground}">
+                <StackPanel Orientation="Horizontal" Background="Transparent">
+                    <TextBlock Foreground="{DynamicResource PrimaryForeground}">About</TextBlock>
+                    <TextBlock Foreground="{DynamicResource HeaderTextBrush}">Me</TextBlock> 
+                </StackPanel>
+                
+                <TextBlock HorizontalAlignment="Center" Foreground="{DynamicResource SecondaryForeground}">A passionate student developer at The Delphian School, dedicated to creating </TextBlock>
+                <TextBlock HorizontalAlignment="Center" Foreground="{DynamicResource SecondaryForeground}">innovative solutions and contributing to the open source community.</TextBlock>
+                
+                
+                
             </StackPanel>
             
         </StackPanel>

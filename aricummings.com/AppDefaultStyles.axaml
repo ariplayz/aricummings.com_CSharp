@@ -34,6 +34,7 @@
         <Setter Property="HorizontalAlignment" Value="Left"></Setter>
         <Setter Property="VerticalAlignment" Value="Center"></Setter>
         <Setter Property="Margin" Value="10 20 0 0"></Setter>
+        <Setter Property="Background" Value="{DynamicResource PrimaryBackground}"></Setter>
     </Style>
     
     <Style Selector="Label.title">
@@ -82,13 +83,13 @@
         <Setter Property="VerticalAlignment" Value="Center"></Setter>
         <Setter Property="FontSize" Value="20"></Setter>
         <Setter Property="HorizontalAlignment" Value="Left"></Setter>
-        <Setter Property="Background" Value="{DynamicResource PrimaryHoverBackground}"></Setter>
+        <Setter Property="Background" Value="{DynamicResource PrimaryBackground}"></Setter>
     </Style>
     
     <Style Selector="TextBlock.bold">
         <Setter Property="FontFamily" Value="{DynamicResource AkkoProBold}"></Setter>
         <Setter Property="Foreground" Value="{DynamicResource PrimaryForeground}"></Setter>
-        <Setter Property="Background" Value="{DynamicResource PrimaryHoverBackground}"></Setter>
+        <Setter Property="Background" Value="{DynamicResource PrimaryBackground}"></Setter>
     </Style>
     
     <Style Selector="Window">
